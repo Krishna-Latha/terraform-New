@@ -45,3 +45,7 @@ variable "sg_tags"{
         Name    = "expence-backend-dev"
     }
 }
+
+variable "demo-tags"{
+    default = {}
+}
